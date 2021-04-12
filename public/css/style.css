@@ -1,6 +1,20 @@
+
+
+body{
+    height:1000px;
+    width:1000px;}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
 @media (min-width: 1025px) {
     .carré1 {
-        height: 100px;
+        height: 33%;
         width: 33%;
         background-color: red
     }
@@ -8,7 +22,7 @@
 
 @media (min-width: 1025px) {
     .carré2 {
-        height: 100px;
+        height: 33%;
         width: 33%;
         background-color: green
     }
@@ -16,7 +30,7 @@
 
 @media (min-width: 1025px) {
     .carré3 {
-        height: 100px;
+        height: 33%;
         width: 33%;
         background-color: orange;
     }
@@ -28,7 +42,7 @@
 
 @media (min-width: 600px) and (max-width:1024px) {
     .carré1 {
-        height: 100px;
+        height: 50%;
         width: 50%;
         background-color: red
     }
@@ -36,7 +50,7 @@
 
 @media (min-width: 600px) and (max-width:1024px) {
     .carré2 {
-        height: 100px;
+        height: 50%;
         width: 50%;
         background-color: green
     }
@@ -44,7 +58,7 @@
 
 @media (min-width: 600px) and (max-width:1024px) {
     .carré3 {
-        height: 100px;
+        height: 50%;
         width: 50%;
         background-color: orange;
     }
@@ -57,7 +71,7 @@
 
 @media (min-width: 320px) and (max-width:601px) {
     .carré1 {
-        height: 100px;
+        height: 100%;
         width: 100%;
         background-color: red
     }
@@ -65,7 +79,7 @@
 
 @media (min-width: 320px) and (max-width:601px) {
     .carré2 {
-        height: 100px;
+        height: 100%;
         width: 100%;
         background-color: green
     }
@@ -73,7 +87,7 @@
 
 @media (min-width: 320px) and (max-width:601px) {
     .carré3 {
-        height: 100px;
+        height: 100%;
         width: 100%;
         background-color: orange;
     }
